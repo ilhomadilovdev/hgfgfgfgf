@@ -1,0 +1,161 @@
+.body {
+
+    margin: 0;
+
+}
+
+.container {
+    width: 890px;
+    margin: 25px auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .Product {
+
+    width: 238px;
+    color: #150101;
+    font-family: Hind Madurai;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 306px;
+    margin-bottom: 64px;
+}
+
+
+
+.on {
+    width: 93px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.5s linear;
+    border-bottom: 2px solid transparent;
+}
+
+.on:hover{
+    border-bottom: 2px solid;
+}
+
+.on1 {
+    width: 183px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.on1::after{
+    content: '';
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: red;
+    transition: 0.5s linear;
+}
+
+.on1:hover::after{
+    width: 100%;
+}
+
+.on2 {
+    width: 116px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+.on2::before{
+    content: '';
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: red;
+    transition: 0.5s linear;
+}  
+.on2:hover::before{
+    width: 100%;
+}
+
+.on2::after{
+    content: '';
+    display: block;
+    width:0;
+    margin-left: 100%;
+    height: 2px;
+    background-color: green;
+    transition: 0.5s linear;
+}
+.on2:hover::after{
+    width: 100%;
+    margin-left: 0;
+}
+
+.on3 {
+    width: 111px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.on3::after{
+    content: '';
+    display: block;
+    width:0;
+    margin-left: 50%;
+    height: 2px;
+    background-color: yellowgreen;
+    transition: 0.5s linear;
+}
+
+.on3:hover::after{
+    width: 100%;
+    margin-left: 0;
+   
+}
+
+.on4 {
+    width: 97px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.on5 {
+    width: 94px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+  
+}
+
+li{
+    list-style: none;
+    margin-bottom: 25px;
+}
